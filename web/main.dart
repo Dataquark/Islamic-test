@@ -4,7 +4,7 @@ import 'questions.dart';
 final questionsList = Questions().questions;
 List<String> correctAnswers = [];
 List<String> chosenAnswers = [];
-List<String> wrongAnswers = [];
+List<Map<String, String>> wrongAnswers = [];
 
 ButtonElement testStart;
 ButtonElement nextButton;
@@ -17,7 +17,7 @@ UListElement answers;
 ElementList options;
 
 int currentQuestion = -1;
-int numberOfQuestions = 10;
+int numberOfQuestions = 3;
 
 void main() {
   // landing page elements
@@ -39,7 +39,10 @@ void main() {
     if (nextButton.text == 'Next') {
       print('Running next button');
       if (chosenAnswers[currentQuestion] != correctAnswers[currentQuestion]) {
-        wrongAnswers.add(questionsList[currentQuestion]['question']);
+        wrongAnswers.add({
+          questionsList[currentQuestion]['question']:
+              correctAnswers[currentQuestion]
+        });
         print('Wrong answers: ${wrongAnswers.length}');
       }
 
@@ -135,7 +138,14 @@ void questionsEvent(Event e) {
     // show the questions to which the answer was wrong
     wrongAnswers.forEach((element) {
       var wrong = LIElement();
-      wrong.text = element;
+      var correct = SpanElement();
+      correct.style.color = '#15803D';
+
+      element.entries.forEach((element) {
+        wrong.text = element.key;
+        correct.text = element.value;
+        wrong.children.add(correct);
+      });
       answers.children.add(wrong);
     });
 

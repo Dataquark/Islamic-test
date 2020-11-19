@@ -545,7 +545,7 @@ class Questions {
       'correctAnswer': "Qazo qilib o'qish farz",
     },
     {
-      'question': 'Musofir va muqim insoga mahs ortish muddati qancha?',
+      'question': 'Musofir va muqim insoga mahs tortish muddati qancha?',
       'answers': [
         '3 kecha-kunduz va 1 kecha-kunduz',
         'Ikki holatta ham 1 kun',

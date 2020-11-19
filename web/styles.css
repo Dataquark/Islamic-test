@@ -115,6 +115,10 @@ html, body {
   color: #330033;
 }
 
+.answers li>span {
+  padding: 3px;
+}
+
 
 
 /* Medium screen */
