@@ -17,7 +17,7 @@ UListElement answers;
 ElementList options;
 
 int currentQuestion = -1;
-int numberOfQuestions = 3;
+int numberOfQuestions = 10;
 
 void main() {
   // landing page elements
