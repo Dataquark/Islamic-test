@@ -376,12 +376,12 @@ class Questions {
       'correctAnswer': "Qilsa savob ham, qilmasa gunoh ham yo'q amal",
     },
     {
-      'question': 'Istinjo nima?',
+      'question': 'Istinjo islom dinida nimani anglatadi?',
       'answers': [
-        "Qo'lni yuvish",
-        'Avratlarni yuvish',
+        "Qo'lni tirsakkacha yuvish",
+        'Avratlarni (orqa va oldi) yuvish',
         'Boshga mahs tortish',
-        'Oyoqni yuvish',
+        "Oyoqni to'piqqacha yuvish",
       ],
       'correctAnswer': 'Avratlarni yuvish',
     },
@@ -389,10 +389,10 @@ class Questions {
       'question':
           "Tahorat uchun niyat va tahorat paytida og'izni uch marta chayishning hukmi nima?",
       'answers': [
-        'Sunna, Sunna',
-        'Wajib, Sunna',
-        'Farz, Wajib',
-        'Muboh, Sunna',
+        'Sunna va Sunna',
+        'Wajib va Sunna',
+        'Farz va Wajib',
+        'Muboh va Sunna',
       ],
       'correctAnswer': 'Sunna, Sunna',
     },
@@ -407,7 +407,7 @@ class Questions {
       'correctAnswer': "Jinsiy a'zoni ushlash",
     },
     {
-      'question': "G'uslning farzlari nimadan iborat?",
+      'question': "G'uslning farzlari nimalardan iborat?",
       'answers': [
         'Og‘izni yuvmoq, Burunni achishtirib chaymoq, Butun tanani ishqalab yuvmoq',
         'Niyat qilish, Butun tanani yuvish',
@@ -423,7 +423,7 @@ class Questions {
       'answers': [
         'Otalari Abdulloh',
         'Bobolari AbdulMutallib',
-        'Amakilar Abu Tolid',
+        'Amakilar Abu Tolib',
         "Bir o'zlari yashadilar",
       ],
       'correctAnswer': 'Bobolari AbdulMutallib',
