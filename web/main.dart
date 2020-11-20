@@ -54,7 +54,7 @@ void main() {
 }
 
 void startEvent(Event e) {
-  print('Starting event');
+  print('Starting event: ${questionsList.length}');
 
   // randomly shuffle the lsit of questions
   questionsList.shuffle();

@@ -754,5 +754,90 @@ class Questions {
       ],
       'correctAnswer': 'Aqida al-Tahawiyya',
     },
+    {
+      'question': "Bismillah ir-Rohman ir-Rohim kalimasining ma'nosi nima?",
+      'answers': [
+        'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
+        'Hamd olamlar Robbi - Allohgadur',
+        'Jazo mukofot kuni egasidur',
+        'U Rohman (Mehribon) va Rohim (Rahmli)',
+      ],
+      'correctAnswer': 'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
+    },
+    {
+      'question': "Alhamdu lillahi Robbi l-'alamin kalimasining ma'nosi nima?",
+      'answers': [
+        'U Rohman (Mehribon) va Rohim (Rahmli)',
+        'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
+        'Hamd olamlar Robbi - Allohgadur',
+        'Jazo mukofot kuni egasidur',
+      ],
+      'correctAnswer': 'Hamd olamlar Robbi - Allohgadur',
+    },
+    {
+      'question': "Ar-Rohmani r-Rohim kalimasining ma'nosi nima?",
+      'answers': [
+        'U Rohman (Mehribon) va Rohim (Rahmli)',
+        'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
+        'Hamd olamlar Robbi - Allohgadur',
+        'Jazo mukofot kuni egasidur',
+      ],
+      'correctAnswer': 'U Rohman (Mehribon) va Rohim (Rahmli)',
+    },
+    {
+      'question': "Maliki yawmi d-din kalimasining ma'nosi nima?",
+      'answers': [
+        'U Rohman (Mehribon) va Rohim (Rahmli)',
+        'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
+        'Hamd olamlar Robbi - Allohgadur',
+        'Jazo-mukofot kunining egasidur',
+      ],
+      'correctAnswer': 'Jazo-mukofot kunining egasidur',
+    },
+    {
+      'question':
+          "Iyyaka na'budu wa iyyaka nasta'in kalimasining ma'nosi nima?",
+      'answers': [
+        "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
+        "Bizni to'g'ri yo'lga hidoyat qilgin",
+        "O'zing ne'mat berganlarning yo'liga",
+        "G'azabga qolganlarnikiga ham emas, adashganlarnikiga ham emas",
+      ],
+      'correctAnswer':
+          "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
+    },
+    {
+      'question': "Ihdina s-siroto l-mustaqim kalimasining ma'nosi nima?",
+      'answers': [
+        "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
+        "Bizni to'g'ri yo'lga hidoyat qilgin",
+        "O'zing ne'mat berganlarning yo'liga",
+        "G'azabga qolganlarnikiga ham emas, adashganlarnikiga ham emas",
+      ],
+      'correctAnswer': "Bizni to'g'ri yo'lga hidoyat qilgin",
+    },
+    {
+      'question':
+          "Siroto l-laziyna an'amta 'alayhim kalimasining ma'nosi nima?",
+      'answers': [
+        "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
+        "Bizni to'g'ri yo'lga hidoyat qilgin",
+        "O'zing ne'mat berganlarning yo'liga",
+        "G'azabga qolganlarnikiga ham emas, adashganlarnikiga ham emas",
+      ],
+      'correctAnswer': "O'zing ne'mat berganlarning yo'liga",
+    },
+    {
+      'question':
+          "G'oyri l-mag'dubi 'alayhim wala d-dolin kalimasining ma'nosi nima?",
+      'answers': [
+        "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
+        "Bizni to'g'ri yo'lga hidoyat qilgin",
+        "O'zing ne'mat berganlarning yo'liga",
+        "G'azabga qolganlarnikiga ham emas, adashganlarnikiga ham emas",
+      ],
+      'correctAnswer':
+          "G'azabga qolganlarnikiga ham emas, adashganlarnikiga ham emas",
+    },
   ];
 }
