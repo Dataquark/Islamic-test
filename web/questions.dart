@@ -755,7 +755,7 @@ class Questions {
       'correctAnswer': 'Aqida al-Tahawiyya',
     },
     {
-      'question': "Bismillah ir-Rohman ir-Rohim kalimasining ma'nosi nima?",
+      'question': "Bismillahir-Rohmanir-Rohim kalimasining ma'nosi nima?",
       'answers': [
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
         'Hamd olamlar Robbi - Allohgadur',
@@ -765,7 +765,7 @@ class Questions {
       'correctAnswer': 'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
     },
     {
-      'question': "Alhamdu lillahi Robbi l-'alamin kalimasining ma'nosi nima?",
+      'question': "Alhamdu lillahi Robbil-'alamin kalimasining ma'nosi nima?",
       'answers': [
         'U Rohman (Mehribon) va Rohim (Rahmli)',
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
@@ -775,7 +775,7 @@ class Questions {
       'correctAnswer': 'Hamd olamlar Robbi - Allohgadur',
     },
     {
-      'question': "Ar-Rohmani r-Rohim kalimasining ma'nosi nima?",
+      'question': "Ar-Rohmanir-Rohim kalimasining ma'nosi nima?",
       'answers': [
         'U Rohman (Mehribon) va Rohim (Rahmli)',
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
@@ -785,7 +785,7 @@ class Questions {
       'correctAnswer': 'U Rohman (Mehribon) va Rohim (Rahmli)',
     },
     {
-      'question': "Maliki yawmi d-din kalimasining ma'nosi nima?",
+      'question': "Maliki yawmid-din kalimasining ma'nosi nima?",
       'answers': [
         'U Rohman (Mehribon) va Rohim (Rahmli)',
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
@@ -807,7 +807,7 @@ class Questions {
           "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
     },
     {
-      'question': "Ihdina s-siroto l-mustaqim kalimasining ma'nosi nima?",
+      'question': "Ihdinas-sirotol-mustaqim kalimasining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -817,8 +817,7 @@ class Questions {
       'correctAnswer': "Bizni to'g'ri yo'lga hidoyat qilgin",
     },
     {
-      'question':
-          "Siroto l-laziyna an'amta 'alayhim kalimasining ma'nosi nima?",
+      'question': "Sirotol-laziyna an'amta 'alayhim kalimasining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -829,7 +828,7 @@ class Questions {
     },
     {
       'question':
-          "G'oyri l-mag'dubi 'alayhim wala d-dolin kalimasining ma'nosi nima?",
+          "G'oyril-mag'dubi 'alayhim walad-dooliin kalimasining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -838,6 +837,212 @@ class Questions {
       ],
       'correctAnswer':
           "G'azabga qolganlarnikiga ham emas, adashganlarnikiga ham emas",
+    },
+    {
+      'question': "Subhana Robbiyal-'Azim kalimasining ma'nosi nima?",
+      'answers': [
+        'Oliy Robbim nuqsonlardan pokdir',
+        "Ulug' Robbim nuqsonlardan pokdir",
+        'Alloh hamd aytuvchilarni eshitadi',
+        "Robbimiz Senga hamd bo'lsin",
+      ],
+      'correctAnswer': "Ulug' Robbim nuqsonlardan pokdir",
+    },
+    {
+      'question': "Subhana Robbiyal-A'la kalimasining ma'nosi nima?",
+      'answers': [
+        'Oliy Robbim nuqsonlardan pokdir',
+        "Ulug' Robbim nuqsonlardan pokdir",
+        'Alloh hamd aytuvchilarni eshitadi',
+        "Robbimiz Senga hamd bo'lsin",
+      ],
+      'correctAnswer': 'Oliy Robbim nuqsonlardan pokdir',
+    },
+    {
+      'question': "Sami' Allohu liman hamidah kalimasining ma'nosi nima?",
+      'answers': [
+        'Oliy Robbim nuqsonlardan pokdir',
+        "Ulug' Robbim nuqsonlardan pokdir",
+        'Alloh hamd aytuvchilarni eshitadi',
+        "Robbimiz Senga hamd bo'lsin",
+      ],
+      'correctAnswer': 'Alloh hamd aytuvchilarni eshitadi',
+    },
+    {
+      'question': "Robbana lakal hamd kalimasining ma'nosi nima?",
+      'answers': [
+        'Oliy Robbim nuqsonlardan pokdir',
+        "Ulug' Robbim nuqsonlardan pokdir",
+        'Alloh hamd aytuvchilarni eshitadi',
+        "Robbimiz Senga hamd bo'lsin",
+      ],
+      'correctAnswer': "Robbimiz Senga hamd bo'lsin",
+    },
+    {
+      'question': "Wal-'asr kalimasining ma'nosi nima?",
+      'answers': [
+        'Asrga qasamki',
+        'Albatta inson ziyon (baxtsizlik)dadir',
+        'Illo, imon keltirganlar va solih amal qilganlar',
+        "Bir-birlarini haq yo'lga chaqirganlar va bir-birlarini sabrga chaqirganlar (unday emasdir)",
+      ],
+      'correctAnswer': 'Asrga qasamki',
+    },
+    {
+      'question': "Innal-insana lafi xusr kalimasining ma'nosi nima?",
+      'answers': [
+        'Asrga qasamki',
+        'Albatta inson ziyon (baxtsizlik)dadir',
+        'Illo, imon keltirganlar va solih amal qilganlar',
+        "Bir-birlarini haq yo'lga chaqirganlar va bir-birlarini sabrga chaqirganlar (unday emasdir)",
+      ],
+      'correctAnswer': 'Albatta inson ziyon (baxtsizlik)dadir',
+    },
+    {
+      'question':
+          "Illal-laziyna aamanu wa 'amilus-solihati kalimasining ma'nosi nima?",
+      'answers': [
+        'Asrga qasamki',
+        'Albatta inson ziyon (baxtsizlik)dadir',
+        'Illo, imon keltirganlar va solih amal qilganlar',
+        "Bir-birlarini haq yo'lga chaqirganlar va bir-birlarini sabrga chaqirganlar (unday emasdir)",
+      ],
+      'correctAnswer': 'Illo, imon keltirganlar va solih amal qilganlar',
+    },
+    {
+      'question':
+          "wa tawasow bil-haqqi wa tawasow bis-sobr kalimasining ma'nosi nima?",
+      'answers': [
+        'Asrga qasamki',
+        'Albatta inson ziyon (baxtsizlik)dadir',
+        'Illo, imon keltirganlar va solih amal qilganlar',
+        "Bir-birlarini haq yo'lga chaqirganlar va bir-birlarini sabrga chaqirganlar (unday emasdir)",
+      ],
+      'correctAnswer':
+          "Bir-birlarini haq yo'lga chaqirganlar va bir-birlarini sabrga chaqirganlar (unday emasdir)",
+    },
+    {
+      'question': "Inna a'toynakal-Kavsar kalimasining ma'nosi nima?",
+      'answers': [
+        'Albatta Biz sizga Kavsarni ato etdik',
+        "Bas, Robbinga namoz o'qi va jonliq so'y",
+        "Albatta, seni yomon ko'rib ayblovchining o'zini orqasi kesik",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': 'Albatta Biz sizga Kavsarni ato etdik',
+    },
+    {
+      'question': "Fasolli liRobbika wanhar kalimasining ma'nosi nima?",
+      'answers': [
+        'Albatta Biz sizga Kavsarni ato etdik',
+        "Bas, Robbinga namoz o'qi va jonliq so'y",
+        "Albatta, seni yomon ko'rib ayblovchining o'zini orqasi kesik",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': "Bas, Robbinga namoz o'qi va jonliq so'y",
+    },
+    {
+      'question': "Inna shaaniaka huwal-abtar kalimasining ma'nosi nima?",
+      'answers': [
+        'Albatta Biz sizga Kavsarni ato etdik',
+        "Bas, Robbinga namoz o'qi va jonliq so'y",
+        "Albatta, seni yomon ko'rib ayblovchining o'zini orqasi kesik",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer':
+          "Albatta, seni yomon ko'rib ayblovchining o'zini orqasi kesik",
+    },
+    {
+      'question': "Qul huw Allohu ahad kalimasining ma'nosi nima?",
+      'answers': [
+        'Ayt: Alloh yagonadir',
+        "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
+        "U tug'magan va tug'ilmagan",
+        'Va Unga hech kim teng emasdir',
+      ],
+      'correctAnswer': 'Ayt: Alloh yagonadir',
+    },
+    {
+      'question': "Allohu s-somad kalimasining ma'nosi nima?",
+      'answers': [
+        'Ayt: Alloh yagonadir',
+        "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
+        "U tug'magan va tug'ilmagan",
+        'Va Unga hech kim teng emasdir',
+      ],
+      'correctAnswer': "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
+    },
+    {
+      'question': "Lam yalid wa lam yuulad kalimasining ma'nosi nima?",
+      'answers': [
+        'Ayt: Alloh yagonadir',
+        "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
+        "U tug'magan va tug'ilmagan",
+        'Va Unga hech kim teng emasdir',
+      ],
+      'correctAnswer': "U tug'magan va tug'ilmagan",
+    },
+    {
+      'question': "Wa lam yakul-lahu kufuwan ahad kalimasining ma'nosi nima?",
+      'answers': [
+        'Ayt: Alloh yagonadir',
+        "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
+        "U tug'magan va tug'ilmagan",
+        'Va Unga hech kim teng emasdir',
+      ],
+      'correctAnswer': 'Va Unga hech kim teng emasdir',
+    },
+    {
+      'question': "Qul a'uuzu bi Robbil-falaq kalimasining ma'nosi nima?",
+      'answers': [
+        "Ayt: men tong Robbisidan panoh so'rayman",
+        "O'zi yaratgan narsalar yomonligidan",
+        "Va kirib kelgan qorong'u kechaning yomonligidan",
+        'Va tugunlarga dam soluvchilar yomonligidan',
+      ],
+      'correctAnswer': "Ayt: men tong Robbisidan panoh so'rayman",
+    },
+    {
+      'question': "Min sharri ma xolaq kalimasining ma'nosi nima?",
+      'answers': [
+        "Ayt: men tong Robbisidan panoh so'rayman",
+        "O'zi yaratgan narsalar yomonligidan",
+        "Va kirib kelgan qorong'u kechaning yomonligidan",
+        'Va tugunlarga dam soluvchilar yomonligidan',
+      ],
+      'correctAnswer': "O'zi yaratgan narsalar yomonligidan",
+    },
+    {
+      'question':
+          "Wa min sharri g'oosiqin iza waqob kalimasining ma'nosi nima?",
+      'answers': [
+        "Ayt: men tong Robbisidan panoh so'rayman",
+        "O'zi yaratgan narsalar yomonligidan",
+        "Va kirib kelgan qorong'u kechaning yomonligidan",
+        'Va tugunlarga dam soluvchilar yomonligidan',
+      ],
+      'correctAnswer': "Va kirib kelgan qorong'u kechaning yomonligidan",
+    },
+    {
+      'question':
+          "Wa min sharrin-naffaa-saati fil 'uqod kalimasining ma'nosi nima?",
+      'answers': [
+        "Ayt: men tong Robbisidan panoh so'rayman",
+        "O'zi yaratgan narsalar yomonligidan",
+        "Va kirib kelgan qorong'u kechaning yomonligidan",
+        'Va tugunlarga dam soluvchilar yomonligidan',
+      ],
+      'correctAnswer': 'Va tugunlarga dam soluvchilar yomonligidan',
+    },
+    {
+      'question': "Wa min sharri haasidin iza hasad kalimasining ma'nosi nima?",
+      'answers': [
+        'Va hasad qilgan hasadchining yomonligidan',
+        "O'zi yaratgan narsalar yomonligidan",
+        "Va kirib kelgan qorong'u kechaning yomonligidan",
+        'Va tugunlarga dam soluvchilar yomonligidan',
+      ],
+      'correctAnswer': 'Va hasad qilgan hasadchining yomonligidan',
     },
   ];
 }
