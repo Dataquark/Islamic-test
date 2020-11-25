@@ -67,11 +67,11 @@ class Questions {
       'question': 'Islomda amallar qanday hukmlarga egadurlar?',
       'answers': [
         'Farz, Sunna, Harom',
-        'Farz, Wajib, Sunna, Harom',
-        'Farz, Wajib, Sunna, Mustahab, Makruh, Harom, Muboh',
+        'Farz, Vojib, Sunna, Harom',
+        'Farz, Vojib, Sunna, Mustahab, Makruh, Harom, Muboh',
         'Farz, Sunna, Makruh, Harom',
       ],
-      'correctAnswer': 'Farz, Wajib, Sunna, Mustahab, Makruh, Harom, Muboh',
+      'correctAnswer': 'Farz, Vojib, Sunna, Mustahab, Makruh, Harom, Muboh',
     },
     {
       'question': "Farz al-Ayn qanday ma'noga ega?",
@@ -390,8 +390,8 @@ class Questions {
           "Tahorat uchun niyat va tahorat paytida og'izni uch marta chayishning hukmi nima?",
       'answers': [
         'Sunna va Sunna',
-        'Wajib va Sunna',
-        'Farz va Wajib',
+        'Vojib va Sunna',
+        'Farz va Vojib',
         'Muboh va Sunna',
       ],
       'correctAnswer': 'Sunna, Sunna',
@@ -651,11 +651,11 @@ class Questions {
       'question': 'Vitr namozining hukmi qanday?',
       'answers': [
         'Farz',
-        'Wajib',
+        'Vojib',
         'Sunna',
         'Mustahab',
       ],
-      'correctAnswer': 'Wajib',
+      'correctAnswer': 'Vojib',
     },
     {
       'question':
@@ -673,7 +673,7 @@ class Questions {
           "Bomdod va asr namozlarining farzidan keyin nafl namoz o'qishning hukmi nima?",
       'answers': [
         'Mustahab',
-        'Wajib',
+        'Vojib',
         'Harom',
         'Makruh',
       ],
@@ -684,7 +684,7 @@ class Questions {
       'answers': [
         'Erkak va ayollarga namoz oldidan sunna',
         'Erkaklarga sunna, ayollarga makruh',
-        'Erkaklarga sunna, ayollarga wajib',
+        'Erkaklarga sunna, ayollarga Vojib',
         'Erkak va ayollarga namoz oldidan muboh',
       ],
       'correctAnswer': 'Erkaklarga sunna, ayollarga makruh',
@@ -1043,6 +1043,112 @@ class Questions {
         'Va tugunlarga dam soluvchilar yomonligidan',
       ],
       'correctAnswer': 'Va hasad qilgan hasadchining yomonligidan',
+    },
+    {
+      'question':
+          "Namoz paytida inson ko'ksini yoki boshini qibladan burishining hukmi qanday?",
+      'answers': [
+        "Ko'ksini burish namozni buzadi, boshni burish makruh",
+        'Ikkalasi ham namozni buzadi',
+        'Bu harakatlar namozni buzmaydi, ammo makruh',
+        'Makruh ham emas, namozni ham buzmaydi',
+      ],
+      'correctAnswer': "Ko'ksini burish namozni buzadi, boshni burish makruh",
+    },
+    {
+      'question': 'Quydagilarning qaysi biri namozni buzadi?',
+      'answers': [
+        'Bilib, bilmay yoki adashib gapirish',
+        "Uzrsiz yo'talish, tomoq qirqish",
+        'Namoz davomida maxs muddatining tugashi',
+        "Hamma javob to'g'ri",
+      ],
+      'correctAnswer': "Hamma javob to'g'ri",
+    },
+    {
+      'question':
+          'Quydagilardan qaysi bir namoz vaqtida makruh amal hisoblanadi?',
+      'answers': [
+        'Erkaklarning sajdada tirsaklarini yerga tegishi',
+        "Sajdaga borayotganda kiyimlarni yig'ish, to'g'irlash",
+        "Namozda ikkinchi rak'atdagi qiroatni birinchi rak'attan uzun qilish",
+        "Hamma javob to'g'ri",
+      ],
+      'correctAnswer': "Hamma javob to'g'ri",
+    },
+    {
+      'question':
+          'Qiyin ahvolda qolgan kishining yordamga chaqirishini eshitganida, yordam berish uchun namozni buzish hukmi nima?',
+      'answers': [
+        'Harom',
+        'Vojib',
+        'Sunna',
+        'Makruh',
+      ],
+      'correctAnswer': 'Vojib',
+    },
+    {
+      'question':
+          'Farz namoz o‘qiyotgan kishining ota-onasidan biri chaqirganida namozni buzishi joizmi?',
+      'answers': [
+        'Joiz',
+        'Joiz lekin makruh',
+        'Namozni buzish Vojib',
+        'Joiz emas',
+      ],
+      'correctAnswer': 'Joiz emas',
+    },
+    {
+      'question': 'Qunut duosini bilmagan inson Vitr namozida nima qiladi?',
+      'answers': [
+        "Uch marta Allohummag'firli deydi, yoki Robbana atina duosini o'qiydi",
+        'Uch marta Alhamdulillah deyishi kifoya',
+        'Bir muddat sukut saqlab ruku qiladi',
+        "Qunut duosini bilmasa Vitr namozi insondan soqit bo'ladi"
+      ],
+      'correctAnswer':
+          "Uch marta Allohummag'firli deydi, yoki Robbana atina duosini o'qiydi",
+    },
+    {
+      'question': 'Namozda Vojib amalni qasddan tark etishning hukmi nima?',
+      'answers': [
+        'Namoz buzulmaydi',
+        "Namoz buzuladi, qaytadan o'qiladi",
+        'Namoz buzulmaydi, faqat sajdai sahv qilinadi',
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': "Namoz buzuladi, qaytadan o'qiladi",
+    },
+    {
+      'question': 'Namozda Vojib amalni bilmasdan tark etishning hukmi nima?',
+      'answers': [
+        'Namoz buzulmaydi',
+        "Namoz buzuladi, qaytadan o'qiladi",
+        'Namoz buzulmaydi, faqat sajdai sahv qilinadi',
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': 'Namoz buzulmaydi, faqat sajdai sahv qilinadi',
+    },
+    {
+      'question':
+          "Qur'oni Karimdagi sajda oyatlarini o'qigandan keyin Sajdai Tilovat qilish uchun tahorat shartmi?",
+      'answers': [
+        'Shart emas',
+        "Tahorat qilsa yaxshi, qilmasa gunoh yo'q",
+        'Tahorat shart',
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': 'Tahorat shart',
+    },
+    {
+      'question': 'Istisqo qanday namoz?',
+      'answers': [
+        "Quyosh tutilsa o'qiladigan namoz",
+        "Oy tutilsa o'qiladigan namoz",
+        'Shukr namozi',
+        "Yomg'ir so'rab o'qiladigan namoz",
+      ],
+      'correctAnswer': "Yomg'ir so'rab o'qiladigan namoz",
     },
   ];
 }

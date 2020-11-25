@@ -4,6 +4,7 @@ import 'questions.dart';
 final questionsList = Questions().questions;
 List<String> correctAnswers = [];
 List<String> chosenAnswers = [];
+List<String> finalAnswers = [];
 List<Map<String, String>> wrongAnswers = [];
 
 ButtonElement testStart;
@@ -16,7 +17,7 @@ SpanElement info;
 UListElement answers;
 ElementList options;
 
-int currentQuestion = -1;
+int currentQuestion = 0;
 int numberOfQuestions = 10;
 
 void main() {
@@ -35,28 +36,14 @@ void main() {
   testStart.onClick.listen(startEvent);
 
   // runs when next button is pressed
-  nextButton.onClick.listen((event) {
-    if (nextButton.text == 'Next') {
-      print('Running next button');
-      if (chosenAnswers[currentQuestion] != correctAnswers[currentQuestion]) {
-        wrongAnswers.add({
-          questionsList[currentQuestion]['question']:
-              correctAnswers[currentQuestion]
-        });
-        print('Wrong answers: ${wrongAnswers.length}');
-      }
-
-      questionsEvent(event);
-    } else if (nextButton.text == 'Restart') {
-      window.location.reload();
-    }
-  });
+  nextButton.onClick.listen((event) => nextButtonClick(event));
 }
 
 void startEvent(Event e) {
-  print('Starting event: ${questionsList.length}');
+  print('Starting the test. # of questions: ${questionsList.length}');
 
-  // randomly shuffle the lsit of questions
+  // randomly shuffle the list of questions
+  questionsList.shuffle();
   questionsList.shuffle();
 
   // display the question-answers and hide the inner-container
@@ -72,86 +59,120 @@ void startEvent(Event e) {
 }
 
 void questionsEvent(Event e) {
-  // in the first run currentQuestion will be 0
-  currentQuestion++;
-  print('Questions Event');
-
   if (currentQuestion < numberOfQuestions) {
-    // clear the previous question-answers from ul element
-    answers.children.clear();
-    nextButton.disabled = true;
-
-    // set the span text to a new question
-    question.text = questionsList[currentQuestion]['question'];
-
-    // create 4 answers as li elements
-    for (var i = 0; i < 4; i++) {
-      var option = LIElement();
-      option.text = questionsList[currentQuestion]['answers'][i];
-      answers.children.add(option);
-    }
-
-    // select all the li elements
-    options = querySelectorAll('li');
-
-    // click behaviour for li elements
-    options.forEach((element) {
-      element.onClick.listen((event) {
-        // reset the styling for other li elements
-        options.forEach((element) {
-          chosenAnswers.remove(element.text);
-          element.style.removeProperty('background-color');
-          element.style.color = '#330033';
-        });
-
-        // set the styling for the clicked li element
-        element.style.backgroundColor = '#440044';
-        element.style.color = '#FAF5FF';
-
-        // once user picks and answer, enable the next button
-        nextButton.disabled = false;
-
-        // populate the list with chosen answer
-        chosenAnswers.add(element.text);
-      });
-    });
-
-    print('Current CQ: $currentQuestion');
+    questionAnswerControl();
   } else {
-    // clear the LIelements
-    answers.children.clear();
+    resultsControl();
+  }
+}
 
-    // show the final results
-    question.text =
-        'Result: ${currentQuestion - wrongAnswers.length} / $numberOfQuestions !';
-    question.style.fontSize = '1.5em';
+void questionAnswerControl() {
+  print('Question number: ${currentQuestion + 1}');
 
-    // additional message depending on results
-    if (wrongAnswers.isNotEmpty) {
-      info.text = "Noto'g'ri javob berilgan savollar:";
-    } else {
-      info.text = 'Eee qoyil lekin! Hammasini topdiz!';
+  // clear the previous question-answers from ul element
+  answers.children.clear();
+  nextButton.disabled = true;
+
+  // set the span text to a new question
+  question.text = questionsList[currentQuestion]['question'];
+
+  // create 4 answers as li elements
+  for (var i = 0; i < 4; i++) {
+    var option = LIElement();
+    option.text = questionsList[currentQuestion]['answers'][i];
+    answers.children.add(option);
+  }
+
+  // select all the li elements
+  options = querySelectorAll('li');
+
+  // click behaviour for li elements
+  optionControl(options);
+}
+
+void resultsControl() {
+  // clear the LIelements
+  answers.children.clear();
+
+  // show the final results
+  question.text =
+      'Result: ${currentQuestion - wrongAnswers.length} / $numberOfQuestions !';
+  question.style.fontSize = '1.5em';
+
+  // additional message depending on results
+  if (wrongAnswers.isNotEmpty) {
+    info.text = "Noto'g'ri javob berilgan savollar:";
+  } else {
+    info.text = 'Eee qoyil lekin! Hammasini topdiz!';
+  }
+
+  info.style.color = '#330033';
+
+  // show the questions to which the answer was wrong
+  wrongAnswers.forEach((element) {
+    var wrong = LIElement();
+    var correct = SpanElement();
+    correct.style.color = '#15803D';
+
+    // individual wrong answer is a map
+    element.entries.forEach((element) {
+      wrong.text = element.key;
+      correct.text = element.value;
+      wrong.children.add(correct);
+    });
+    answers.children.add(wrong);
+  });
+
+  // Reload the window on click
+  nextButton.text = 'Restart';
+  correctAnswers.clear();
+  chosenAnswers.clear();
+  finalAnswers.clear();
+}
+
+void optionStyleRemover(LIElement element) {
+  // Remove the non selected answers from chosenAnswers
+  chosenAnswers.remove(element.text);
+
+  // reset the style of non selected answers
+  element.style.removeProperty('background-color');
+  element.style.color = '#330033';
+}
+
+void optionControl(ElementList options) {
+  options.forEach((element) {
+    element.onClick.listen((event) {
+      options.forEach((element) => optionStyleRemover(element));
+      element.style.backgroundColor = '#440044';
+      element.style.color = '#FAF5FF';
+      chosenAnswers.add(element.text);
+
+      nextButton.disabled = false;
+    });
+  });
+}
+
+void nextButtonClick(event) {
+  if (nextButton.text == 'Next') {
+    // no matter how many times a user reselects
+    // an answer in a given question, the last element
+    // in chosenAnswers is user's last choice
+    // which should be added to the finalAnswers
+    finalAnswers.add(chosenAnswers.last);
+    print('Chosen answers: $finalAnswers');
+
+    // check the answer and populate the wrongAnswers
+    if (finalAnswers[currentQuestion] != correctAnswers[currentQuestion]) {
+      wrongAnswers.add({
+        questionsList[currentQuestion]['question']:
+            correctAnswers[currentQuestion]
+      });
     }
 
-    info.style.color = '#330033';
-
-    // show the questions to which the answer was wrong
-    wrongAnswers.forEach((element) {
-      var wrong = LIElement();
-      var correct = SpanElement();
-      correct.style.color = '#15803D';
-
-      element.entries.forEach((element) {
-        wrong.text = element.key;
-        correct.text = element.value;
-        wrong.children.add(correct);
-      });
-      answers.children.add(wrong);
-    });
-
-    // Reload the window on click
-    nextButton.text = 'Restart';
-    correctAnswers.clear();
-    chosenAnswers.clear();
+    // Increment the index for the next questionEvent
+    currentQuestion++;
+    questionsEvent(event);
+  } else if (nextButton.text == 'Restart') {
+    window.location.reload();
   }
 }
