@@ -765,7 +765,7 @@ class Questions {
       'correctAnswer': 'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
     },
     {
-      'question': "Alhamdu lillahi Robbil-'alamin kalimasining ma'nosi nima?",
+      'question': "Alhamdu lillahi Robbil-'alamin oyatining ma'nosi nima?",
       'answers': [
         'U Rohman (Mehribon) va Rohim (Rahmli)',
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
@@ -775,7 +775,7 @@ class Questions {
       'correctAnswer': 'Hamd olamlar Robbi - Allohgadur',
     },
     {
-      'question': "Ar-Rohmanir-Rohim kalimasining ma'nosi nima?",
+      'question': "Ar-Rohmanir-Rohim oyatining ma'nosi nima?",
       'answers': [
         'U Rohman (Mehribon) va Rohim (Rahmli)',
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
@@ -785,7 +785,7 @@ class Questions {
       'correctAnswer': 'U Rohman (Mehribon) va Rohim (Rahmli)',
     },
     {
-      'question': "Maliki yawmid-din kalimasining ma'nosi nima?",
+      'question': "Maliki yawmid-din oyatining ma'nosi nima?",
       'answers': [
         'U Rohman (Mehribon) va Rohim (Rahmli)',
         'Mehribon va rahmli Alloh nomi bilan (boshlayman)',
@@ -795,8 +795,7 @@ class Questions {
       'correctAnswer': 'Jazo-mukofot kunining egasidur',
     },
     {
-      'question':
-          "Iyyaka na'budu wa iyyaka nasta'in kalimasining ma'nosi nima?",
+      'question': "Iyyaka na'budu wa iyyaka nasta'in oyatining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -807,7 +806,7 @@ class Questions {
           "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
     },
     {
-      'question': "Ihdinas-sirotol-mustaqim kalimasining ma'nosi nima?",
+      'question': "Ihdinas-sirotol-mustaqim oyatining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -817,7 +816,7 @@ class Questions {
       'correctAnswer': "Bizni to'g'ri yo'lga hidoyat qilgin",
     },
     {
-      'question': "Sirotol-laziyna an'amta 'alayhim kalimasining ma'nosi nima?",
+      'question': "Sirotol-laziyna an'amta 'alayhim oyatining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -828,7 +827,7 @@ class Questions {
     },
     {
       'question':
-          "G'oyril-mag'dubi 'alayhim walad-dooliin kalimasining ma'nosi nima?",
+          "G'oyril-mag'dubi 'alayhim walad-dooliin oyatining ma'nosi nima?",
       'answers': [
         "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
         "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -879,7 +878,7 @@ class Questions {
       'correctAnswer': "Robbimiz Senga hamd bo'lsin",
     },
     {
-      'question': "Wal-'asr kalimasining ma'nosi nima?",
+      'question': "Wal-'asr oyatining ma'nosi nima?",
       'answers': [
         'Asrga qasamki',
         'Albatta inson ziyon (baxtsizlik)dadir',
@@ -889,7 +888,7 @@ class Questions {
       'correctAnswer': 'Asrga qasamki',
     },
     {
-      'question': "Innal-insana lafi xusr kalimasining ma'nosi nima?",
+      'question': "Innal-insana lafi xusr oyatining ma'nosi nima?",
       'answers': [
         'Asrga qasamki',
         'Albatta inson ziyon (baxtsizlik)dadir',
@@ -900,7 +899,7 @@ class Questions {
     },
     {
       'question':
-          "Illal-laziyna aamanu wa 'amilus-solihati kalimasining ma'nosi nima?",
+          "Illal-laziyna aamanu wa 'amilus-solihati oyatining ma'nosi nima?",
       'answers': [
         'Asrga qasamki',
         'Albatta inson ziyon (baxtsizlik)dadir',
@@ -911,7 +910,7 @@ class Questions {
     },
     {
       'question':
-          "wa tawasow bil-haqqi wa tawasow bis-sobr kalimasining ma'nosi nima?",
+          "wa tawasow bil-haqqi wa tawasow bis-sobr oyatining ma'nosi nima?",
       'answers': [
         'Asrga qasamki',
         'Albatta inson ziyon (baxtsizlik)dadir',
@@ -922,7 +921,7 @@ class Questions {
           "Bir-birlarini haq yo'lga chaqirganlar va bir-birlarini sabrga chaqirganlar (unday emasdir)",
     },
     {
-      'question': "Inna a'toynakal-Kavsar kalimasining ma'nosi nima?",
+      'question': "Inna a'toynakal-Kavsar oyatining ma'nosi nima?",
       'answers': [
         'Albatta Biz sizga Kavsarni ato etdik',
         "Bas, Robbinga namoz o'qi va jonliq so'y",
@@ -932,7 +931,7 @@ class Questions {
       'correctAnswer': 'Albatta Biz sizga Kavsarni ato etdik',
     },
     {
-      'question': "Fasolli liRobbika wanhar kalimasining ma'nosi nima?",
+      'question': "Fasolli liRobbika wanhar oyatining ma'nosi nima?",
       'answers': [
         'Albatta Biz sizga Kavsarni ato etdik',
         "Bas, Robbinga namoz o'qi va jonliq so'y",
@@ -942,7 +941,7 @@ class Questions {
       'correctAnswer': "Bas, Robbinga namoz o'qi va jonliq so'y",
     },
     {
-      'question': "Inna shaaniaka huwal-abtar kalimasining ma'nosi nima?",
+      'question': "Inna shaaniaka huwal-abtar oyatining ma'nosi nima?",
       'answers': [
         'Albatta Biz sizga Kavsarni ato etdik',
         "Bas, Robbinga namoz o'qi va jonliq so'y",
@@ -953,7 +952,7 @@ class Questions {
           "Albatta, seni yomon ko'rib ayblovchining o'zini orqasi kesik",
     },
     {
-      'question': "Qul huw Allohu ahad kalimasining ma'nosi nima?",
+      'question': "Qul huw Allohu ahad oyatining ma'nosi nima?",
       'answers': [
         'Ayt: Alloh yagonadir',
         "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
@@ -963,7 +962,7 @@ class Questions {
       'correctAnswer': 'Ayt: Alloh yagonadir',
     },
     {
-      'question': "Allohu s-somad kalimasining ma'nosi nima?",
+      'question': "Allohu s-somad oyatining ma'nosi nima?",
       'answers': [
         'Ayt: Alloh yagonadir',
         "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
@@ -973,7 +972,7 @@ class Questions {
       'correctAnswer': "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
     },
     {
-      'question': "Lam yalid wa lam yuulad kalimasining ma'nosi nima?",
+      'question': "Lam yalid wa lam yuulad oyatining ma'nosi nima?",
       'answers': [
         'Ayt: Alloh yagonadir',
         "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
@@ -983,7 +982,7 @@ class Questions {
       'correctAnswer': "U tug'magan va tug'ilmagan",
     },
     {
-      'question': "Wa lam yakul-lahu kufuwan ahad kalimasining ma'nosi nima?",
+      'question': "Wa lam yakul-lahu kufuwan ahad oyatining ma'nosi nima?",
       'answers': [
         'Ayt: Alloh yagonadir',
         "Alloh - hojatlarni va rag'batlarni qondiruvchidir",
@@ -993,7 +992,7 @@ class Questions {
       'correctAnswer': 'Va Unga hech kim teng emasdir',
     },
     {
-      'question': "Qul a'uuzu bi Robbil-falaq kalimasining ma'nosi nima?",
+      'question': "Qul a'uuzu bi Robbil-falaq oyatining ma'nosi nima?",
       'answers': [
         "Ayt: men tong Robbisidan panoh so'rayman",
         "O'zi yaratgan narsalar yomonligidan",
@@ -1003,7 +1002,7 @@ class Questions {
       'correctAnswer': "Ayt: men tong Robbisidan panoh so'rayman",
     },
     {
-      'question': "Min sharri ma xolaq kalimasining ma'nosi nima?",
+      'question': "Min sharri ma xolaq oyatining ma'nosi nima?",
       'answers': [
         "Ayt: men tong Robbisidan panoh so'rayman",
         "O'zi yaratgan narsalar yomonligidan",
@@ -1013,8 +1012,7 @@ class Questions {
       'correctAnswer': "O'zi yaratgan narsalar yomonligidan",
     },
     {
-      'question':
-          "Wa min sharri g'oosiqin iza waqob kalimasining ma'nosi nima?",
+      'question': "Wa min sharri g'oosiqin iza waqob oyatining ma'nosi nima?",
       'answers': [
         "Ayt: men tong Robbisidan panoh so'rayman",
         "O'zi yaratgan narsalar yomonligidan",
@@ -1025,7 +1023,7 @@ class Questions {
     },
     {
       'question':
-          "Wa min sharrin-naffaa-saati fil 'uqod kalimasining ma'nosi nima?",
+          "Wa min sharrin-naffaa-saati fil 'uqod oyatining ma'nosi nima?",
       'answers': [
         "Ayt: men tong Robbisidan panoh so'rayman",
         "O'zi yaratgan narsalar yomonligidan",
@@ -1035,7 +1033,7 @@ class Questions {
       'correctAnswer': 'Va tugunlarga dam soluvchilar yomonligidan',
     },
     {
-      'question': "Wa min sharri haasidin iza hasad kalimasining ma'nosi nima?",
+      'question': "Wa min sharri haasidin iza hasad oyatining ma'nosi nima?",
       'answers': [
         'Va hasad qilgan hasadchining yomonligidan',
         "O'zi yaratgan narsalar yomonligidan",
@@ -1149,6 +1147,131 @@ class Questions {
         "Yomg'ir so'rab o'qiladigan namoz",
       ],
       'correctAnswer': "Yomg'ir so'rab o'qiladigan namoz",
+    },
+    {
+      'question': "Qul a'uuzu bi Robbin-naas oyatining ma'nosi nima?",
+      'answers': [
+        "Ayt, men panoh so'rayman barcha insonlarning Robbisidan",
+        'Barcha insonlar Podshoxidan',
+        'Barcha insonlar Ilohidan',
+        "Berkinib, ko'rinib turuvchi vasvasachining yomonligidan",
+      ],
+      'correctAnswer':
+          "Ayt, men panoh so'rayman barcha insonlarning Robbisidan",
+    },
+    {
+      'question': "Malikin-naas oyatining ma'nosi nima?",
+      'answers': [
+        "Ayt, men panoh so'rayman barcha insonlarning Robbisidan",
+        'Barcha insonlar Podshoxidan',
+        'Barcha insonlar Ilohidan',
+        "Berkinib, ko'rinib turuvchi vasvasachining yomonligidan",
+      ],
+      'correctAnswer': 'Barcha insonlar Podshoxidan',
+    },
+    {
+      'question': "Ilahin-naas oyatining ma'nosi nima?",
+      'answers': [
+        "Ayt, men panoh so'rayman barcha insonlarning Robbisidan",
+        'Barcha insonlar Podshoxidan',
+        'Barcha insonlar Ilohidan',
+        "Berkinib, ko'rinib turuvchi vasvasachining yomonligidan",
+      ],
+      'correctAnswer': 'Barcha insonlar Ilohidan',
+    },
+    {
+      'question': "Min sharril-waswaasil-xonnaas oyatining ma'nosi nima?",
+      'answers': [
+        "Ayt, men panoh so'rayman barcha insonlarning Robbisidan",
+        'Barcha insonlar Podshoxidan',
+        'Barcha insonlar Ilohidan',
+        "Berkinib, ko'rinib turuvchi vasvasachining yomonligidan",
+      ],
+      'correctAnswer':
+          "Berkinib, ko'rinib turuvchi vasvasachining yomonligidan",
+    },
+    {
+      'question': "Allazi yuwaswisu fi sudurin-naas oyatining ma'nosi nima?",
+      'answers': [
+        'Odamlar qalblariga vasvasa soladiganning',
+        "Jinlar va odamlardan bo'lganning",
+        "Odamlarni yo'ldan og'diradiganning",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': 'Odamlar qalblariga vasvasa soladiganning',
+    },
+    {
+      'question': "Minal-jinnati wan-naas oyatining ma'nosi nima?",
+      'answers': [
+        'Odamlar qalblariga vasvasa soladiganning',
+        "Jinlar va odamlardan bo'lganning",
+        "Odamlarni yo'ldan og'diradiganning",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': "Jinlar va odamlardan bo'lganning",
+    },
+    {
+      'question':
+          "Robbana atina fid-dunya hasana, wa fil-aaxiroti hasana, wa qina a'zaaban-naar duosining ma'nosi nima?",
+      'answers': [
+        'Robbimiz, bizga bu dunyoda ham yaxshilikni',
+        'Oxiratda ham yaxshilikni bergin',
+        "Va bizni do'zax azobidan asragin",
+        'Hamma javobni bu duo ichiga oladi',
+      ],
+      'correctAnswer': 'Hamma javobni bu duo ichiga oladi',
+    },
+    {
+      'question':
+          "Rabbana taqabbal minna innaka antas Samii'ul Aliim duosining ma'nosi nima?",
+      'answers': [
+        "Ey Robbimiz, bizdan qabul et, albatta Sening O'zing eshituvchi, biluvchi Zotsan",
+        'Ey Robbimiz, qalbimizni hidoyatdan adashtirma',
+        "Ey Robbimiz, to'g'ri yo'ldan bizlarni adashtirma",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer':
+          "Ey Robbimiz, bizdan qabul et, albatta Sening O'zing eshituvchi, biluvchi Zotsan",
+    },
+    {
+      'question': "Alloh taoloning Quddus ismi nima ma'noni bildiradi?",
+      'answers': [
+        'Barcha ayblardan xoli, noloyiq sifatlardan pok',
+        'Hamma narsani qamrab oluvchi',
+        "Hamma narsadan o'ta habardor",
+        "Hamma narsani ko'ruvchi",
+      ],
+      'correctAnswer': 'Barcha ayblardan xoli, noloyiq sifatlardan pok',
+    },
+    {
+      'question': "Alloh taoloning Muhaymin ismi nima ma'noni bildiradi?",
+      'answers': [
+        'Barcha ayblardan xoli, noloyiq sifatlardan pok',
+        'Hamma narsani qamrab oluvchi',
+        "Hamma narsadan o'ta habardor",
+        "Hamma narsani ko'ruvchi",
+      ],
+      'correctAnswer': 'Hamma narsani qamrab oluvchi',
+    },
+    {
+      'question': "Alloh taoloning Xobiyr ismi nima ma'noni bildiradi?",
+      'answers': [
+        'Barcha ayblardan xoli, noloyiq sifatlardan pok',
+        'Hamma narsani qamrab oluvchi',
+        "Hamma narsadan o'ta habardor",
+        "Hamma narsani ko'ruvchi",
+      ],
+      'correctAnswer': "Hamma narsadan o'ta habardor",
+    },
+    {
+      'question': "Alloh taoloning Basiyr ismi nima ma'noni bildiradi?",
+      'answers': [
+        'Barcha ayblardan xoli, noloyiq sifatlardan pok',
+        'Hamma narsani qamrab oluvchi',
+        "Hamma narsadan o'ta habardor",
+        "Hamma narsani ko'ruvchi",
+      ],
+      'correctAnswer': "Hamma narsani ko'ruvchi",
     },
   ];
 }
