@@ -528,7 +528,7 @@ class Questions {
       'question': "Tahoratsiz kishiga qaysi namozni o'qishga ruxsat bor?",
       'answers': [
         'Nafl nomozlari',
-        'Taroweh nomozi',
+        'Taroveh nomozi',
         "Har qanday namoz o'qish harom",
         'Qazo nomozi',
       ],
@@ -1272,6 +1272,308 @@ class Questions {
         "Hamma narsani ko'ruvchi",
       ],
       'correctAnswer': "Hamma narsani ko'ruvchi",
+    },
+    {
+      'question':
+          "Shofei mazhabining katta ulamolaridan biri, 'Riyoz us-Solihiyn' asarining muallifi kim?",
+      'answers': [
+        'Yahyo ibn Sharaf an-Nawawi',
+        "Abu Hamid al-G'azzoli",
+        "Izz al-Din ibn 'Abd al-Salam",
+        'Ibn Hajar al-Asqalani',
+      ],
+      'correctAnswer': 'Yahyo ibn Sharaf an-Nawawi',
+    },
+    {
+      'question':
+          "Sahih al-Buxoriy asariga yozilgan eng mashhur sharxlardan biri 'Fath ul-Bari' asari kimga tegishli?",
+      'answers': [
+        'Yahyo ibn Sharaf an-Nawawi',
+        "Abu Hamid al-G'azzoli",
+        "Izz al-Din ibn 'Abd al-Salam",
+        'Ibn Hajar al-Asqalani',
+      ],
+      'correctAnswer': 'Ibn Hajar al-Asqalani',
+    },
+    {
+      'question':
+          "Hujjat ul-Islom laqabini olgan ulug' ulamo, 'Ihya' Ulum al-Din' asarining muallifi kim?",
+      'answers': [
+        'Yahyo ibn Sharaf an-Nawawi',
+        "Abu Hamid al-G'azzoli",
+        "Izz al-Din ibn 'Abd al-Salam",
+        'Ibn Hajar al-Asqalani',
+      ],
+      'correctAnswer': "Abu Hamid al-G'azzoli",
+    },
+    {
+      'question':
+          "Imom al-Zahabi qaysi katta ulamo haqida: 'Bu zot mujtahid darajasiga yetgan ulamodir' deb aytganlar?",
+      'answers': [
+        'Yahyo ibn Sharaf an-Nawawi',
+        "Abu Hamid al-G'azzoli",
+        "Izz al-Din ibn 'Abd al-Salam",
+        'Ibn Hajar al-Asqalani',
+      ],
+      'correctAnswer': "Izz al-Din ibn 'Abd al-Salam",
+    },
+    {
+      'question': 'Taroveh namozi erkak va ayollar uchun qanday hukmga ega?',
+      'answers': [
+        'Erkaklarga vojib, ayollarga sunnat',
+        'Erkak va ayollarga farz',
+        'Erkak va ayollar uchun sunna muakkada',
+        'Ayollar uchun vojib, erkaklarga sunnat',
+      ],
+      'correctAnswer': 'Erkak va ayollar uchun sunna muakkada',
+    },
+    {
+      'question':
+          "Tik turib o'qishga kuchi yetib, ruku va sajda qilishga kuchi yetmagan kishi namozini qanday o'qiydi?",
+      'answers': [
+        "O'tirgan joyida imo ishora bilan o'qiydi",
+        'Tik turgan joyida imo ishora bilan',
+        "Namozni kechiktiradi va kuchi qaytgandan keyin o'qiydi",
+        "Ruku va sajdaga kuchi yetmagan insondan namoz soqit bo'ladi",
+      ],
+      'correctAnswer': "O'tirgan joyida imo ishora bilan o'qiydi",
+    },
+    {
+      'question':
+          "Hanafi mazhabida jamoat uchun eng kamida nechta odam (erkak, balog'atga yetgan) hozir bo'lishi lozim",
+      'answers': [
+        'Imomdan tashqari 2 ta',
+        'Imomdan tashqari 3 ta',
+        'Imomdan tashqari 12 ta',
+        'Imomdan tashqari 1 ta',
+      ],
+      'correctAnswer': 'Imomdan tashqari 3 ta',
+    },
+    {
+      'question':
+          "Juma namozi uchun ikkinchi azon qaysi halifa davrida jore' etildi",
+      'answers': [
+        'Abu Bakr as-Siddiq',
+        'Umar Ibn al-Xattob',
+        'Usmon ibn Affon',
+        'Ali ibn Abu Tolib',
+      ],
+      'correctAnswer': 'Usmon ibn Affon',
+    },
+    {
+      'question':
+          "O'lim to'shagidagi bemorni o'ng yoniga yonboshlatib, qiblaga qaratib qo'yishning hukmi nima?",
+      'answers': [
+        'Farz',
+        'Vojib',
+        'Muboh',
+        'Sunnat',
+      ],
+      'correctAnswer': 'Sunnat',
+    },
+    {
+      'question':
+          "Ayolning yuvilishi, kafanlanishi, ko'milishi xarajatlari kimning bo'ynida?",
+      'answers': [
+        'Erining',
+        'Bolalarining',
+        'Ota-onasining',
+        'Mahalla idorasining',
+      ],
+      'correctAnswer': 'Erining',
+    },
+    {
+      'question': 'Janoza namozining hukmi qanday?',
+      'answers': [
+        'Farz ayn',
+        'Farz kifoya',
+        'Sunna muakkada',
+        'Vojib',
+      ],
+      'correctAnswer': 'Farz kifoya',
+    },
+    {
+      'question': "O'zini o'zi o‘ldirgan musulmonga janoza o'qiladimi?",
+      'answers': [
+        "U kishi yuviladi, ammo namoz o'qilmaydi",
+        "U kishiga namoz o'qiladi, ammo yuvilmaydi",
+        "U kishi yuviladi va namozi o'qiladi",
+        "To'g'ri javob yo'q",
+      ],
+      'correctAnswer': "U kishi yuviladi va namozi o'qiladi",
+    },
+    {
+      'question': "Mayyitni qabrga qo'yuvchi kishi nima deydi?",
+      'answers': [
+        'Bismillah',
+        "Bismillahi va 'ala millati Rosulillahi",
+        "A'uzubillah",
+        "Ixlos surasini o'qiydi",
+      ],
+      'correctAnswer': "Bismillahi va 'ala millati Rosulillahi"
+    },
+    {
+      'question': "Dengizda o'lgan musulmonning jasadi nima qilinadi?",
+      'answers': [
+        "Yuvmasdan, janoza o'qimasdan dengizga otiladi",
+        "Yuvib, janoza o'qimasdan dengizga tashaladi",
+        "Sohilga yetguncha kutiladi va yerga ko'miladi",
+        "Yuvib, kafanlab, janoza o'qiladi va dengizga tashaladi",
+      ],
+      'correctAnswer': "Yuvib, kafanlab, janoza o'qiladi va dengizga tashaladi",
+    },
+    {
+      'question': 'Qabristonga borishning hukmi nima?',
+      'answers': [
+        'Hamma uchun birdek makruh',
+        'Ibrat uchun borilsa mustahab',
+        'Erkaklar uchun vojib',
+        'Muboh ish',
+      ],
+      'correctAnswer': 'Ibrat uchun borilsa mustahab',
+    },
+    {
+      'question': "Ramazon ro'zasini tutish farz bo'lishining shartlari nima?",
+      'answers': [
+        "Musulmonlik, balog'atga yetish",
+        "Balog'atga yetish va aql hushi joyida bo'lishi",
+        'Ramazon oyining kirishi',
+        "Musulmonlik, aql hush joyida bo'lishi, balog'atga yetish",
+      ],
+      'correctAnswer':
+          "Musulmonlik, aql hush joyida bo'lishi, balog'atga yetish",
+    },
+    {
+      'question': "Ro'za qanday turlarga bo'linadi",
+      'answers': [
+        'Farz, makruh va nafl',
+        'Farz, vojib va nafl',
+        'Farz, vojib, nafl va makruh',
+        'Farz va nafl',
+      ],
+      'correctAnswer': 'Farz, vojib, nafl va makruh',
+    },
+    {
+      'question':
+          "Kishi nafl ro'zasini tutsa, keyin uni atayin buzsa, qanday hukm qilinadi?",
+      'answers': [
+        'Qazosini tutib berishi sunnat',
+        'Qazosini tutib berishi vojib',
+        "Qazosini tutishi shart emas, o'rniga fidya beradi",
+        "Buzgani uchun 3 kun kafforot ro'zasini tutib beradi",
+      ],
+      'correctAnswer': 'Qazosini tutib berishi vojib',
+    },
+    {
+      'question':
+          "Ramazon yoki Qurbon hayiti kuni ro'za tutishning hukmi nima?",
+      'answers': [
+        'Sunnat',
+        'Vojib',
+        'Muboh',
+        'Makruh tahrimiy',
+      ],
+      'correctAnswer': 'Makruh tahrimiy',
+    },
+    {
+      'question':
+          "Kishi ro'za tutganini esidan chiqarib taom yesa nima qiladi?",
+      'answers': [
+        "Ro'zani davom ettiradi, qazo qilmaydi",
+        "Ro'zani davom ettiradi, Ramazondan keyin qazo tutib beradi",
+        "Ro'zani buzadi, Ramazondan keyin 60 kun uzluksiz kafforot ro'za tutadi",
+        "Qorni och yoki to'qligiga qarab hohlagan ishini qiladi",
+      ],
+      'correctAnswer': "Ro'zani davom ettiradi, qazo qilmaydi",
+    },
+    {
+      'question':
+          "Ro'zadorning tomog'idan pashsha yoki chivin beatayin o'tib ketsa nima qiladi?",
+      'answers': [
+        "Barmog'ini halqumiga tekazib qusadi va ro'zani davom ettiradi",
+        "Ro'zasi buzilmaydi, davom ettiradi",
+        "Ro'za buziladi, bir kun qazosini tutib beradi",
+        "Ro'za buziladi, Ramazondan keyin 60 kun kafforot ro'za tutadi",
+      ],
+      'correctAnswer': "Ro'zasi buzilmaydi, davom ettiradi",
+    },
+    {
+      'question': "Qon oldirish yoki g'iybat qilish ro'zani buzadimi?",
+      'answers': [
+        "Qon oldirish buzadi, g'iybat buzmaydi",
+        "G'iybat buzadi, qon oldirish buzmaydi",
+        "Ikkala ish ro'zani buzadi",
+        "Qon oldirish, g'iybat ro'zani buzmaydi",
+      ],
+      'correctAnswer': "Qon oldirish, g'iybat ro'zani buzmaydi",
+    },
+    {
+      'question':
+          "Kishi qon oldirgandan so'ng ro'za buzildi deb atayin (hadisdan habardor holda) narsa yesa nima bo'ladi?",
+      'answers': [
+        "Ro'zasi buziladi, ham qazo, ham kafforot ro'zasi vojib bo'ladi",
+        "Ro'zasi buziladi va faqat qazo tutishi vojib bo'ladi",
+        "Ro'zasi buzilad va faqat kafforot ro'zasini tutish vojib bo'ladi",
+        "Ro'za buzilmaydi, qazo qilinmaydi, kafforot ro'zasi shart emas",
+      ],
+      'correctAnswer':
+          "Ro'zasi buziladi, ham qazo, ham kafforot ro'zasi vojib bo'ladi",
+    },
+    {
+      'question':
+          "Ro'zadorning tahoratda og'iz chayganida, ichiga suv ketib qolishining hukmi nima?",
+      'answers': [
+        "Ro'zasi buzilmaydi, ammo kafforot ro'zasi vojib bo'ladi",
+        "Ro'zasi buziladi, qazo va kafforot vojib bo'ladi",
+        "Ro'zasi buziladi va faqat qazo vojib bo'ladi",
+        "Ro'zasi buzilmaydi, ammo fidya berish vojib bo'ladi",
+      ],
+      'correctAnswer': "Ro'zasi buziladi va faqat qazo vojib bo'ladi",
+    },
+    {
+      'question': "Ro'zadorning misvok ishlatishining hukmi nima?",
+      'answers': [
+        'Saharlikdan oldin sunnat, saharlikdan keyin makruh',
+        'Saharlikdan oldin ham, keyin ham sunnat amal',
+        'Har qanday holatta makruh amal',
+        "Muboh amal, savobi yoki gunohi yo'q",
+      ],
+      'correctAnswer': 'Saharlikdan oldin ham, keyin ham sunnat amal',
+    },
+    {
+      'question':
+          "Ro'za tuta olmaydigan darajadagi qariya insonlar nima qiladilar?",
+      'answers': [
+        "Ro'zani o'rniga ikki rakat namoz o'qiydilar",
+        "Hech nima qilishmaydi, ro'za ulardan soqit bo'ladi",
+        'Ramazonning har bir kuni uchun fidya berishligi lozim',
+        "Kuniga kuchlari yetgancha ro'za tutib, qolgan vaqtta ovqatlanadilar",
+      ],
+      'correctAnswer': 'Ramazonning har bir kuni uchun fidya berishligi lozim',
+    },
+    {
+      'question':
+          'Kofir inson Ramazon oyining kunduzida Islom dinini qabul qilsa nima qiladi?',
+      'answers': [
+        "Yeb ichiv yuraveradi, ertasidan boshlab ro'za tutadi",
+        "O'sha kuni ro'zani buzadigan amallardan tiyiladi, keyin qazo qilib tutmaydi",
+        "O'sha kun uchun muhtojlarga fidya beradi",
+        "Yeb ichishdan o'sha kuni tiyiladi, keyin qazosini tutib beradi",
+      ],
+      'correctAnswer':
+          "O'sha kuni ro'zani buzadigan amallardan tiyiladi, keyin qazo qilib tutmaydi",
+    },
+    {
+      'question':
+          "Aqldan ozgan (telba) kishi Ramazonda ba'zi kunlar aql hushiga kelib qolsa nima qiladi?",
+      'answers': [
+        "O'tgan kunlar qazosini ham, keyingi kunlar ro'zasini ham tutadi",
+        "Keyingi kunlar ro'zasini tutadi, ammo o'tganini qazosini tutmaydi",
+        "Ramazonning o'tgan va keyingi kunlari uchun fidya beradi",
+        "Ikki uch kun o'ziga kelgunicha kutib, keyin ro'za tutishni boshlaydi",
+      ],
+      'correctAnswer':
+          "O'tgan kunlar qazosini ham, keyingi kunlar ro'zasini ham tutadi",
     },
   ];
 }
