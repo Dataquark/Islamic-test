@@ -1,7 +1,6 @@
+import 'dart:convert';
 import 'dart:html';
-import 'questions.dart';
 
-final questionsList = Questions().questions;
 List<String> correctAnswers = [];
 List<String> chosenAnswers = [];
 List<String> finalAnswers = [];
@@ -32,14 +31,22 @@ void main() {
   answers = querySelector('.answers');
   nextButton = querySelector('.next-button');
 
-  // it runs when start button is pressed
-  testStart.onClick.listen(startEvent);
+  var path = './db/questions.json';
+  HttpRequest.getString(path).then((value) {
+    final jsonFile = jsonDecode(value);
 
-  // runs when next button is pressed
-  nextButton.onClick.listen((event) => nextButtonClick(event));
+    // it runs when start button is pressed
+    testStart.onClick.listen((e) => startEvent(e, jsonFile));
+
+    // runs when next button is pressed
+    nextButton.onClick.listen((event) => nextButtonClick(event, jsonFile));
+  }).catchError((error) {
+    print(error);
+  });
 }
 
-void startEvent(Event e) {
+void startEvent(Event e, dynamic jsonObject) {
+  List questionsList = jsonObject['questions'];
   print('Starting the test. # of questions: ${questionsList.length}');
 
   // randomly shuffle the list of questions
@@ -55,18 +62,19 @@ void startEvent(Event e) {
     correctAnswers.add(element['correctAnswer']);
   });
 
-  questionsEvent(e);
+  questionsEvent(e, jsonObject);
 }
 
-void questionsEvent(Event e) {
+void questionsEvent(Event e, dynamic jsonObject) {
   if (currentQuestion < numberOfQuestions) {
-    questionAnswerControl();
+    questionAnswerControl(jsonObject);
   } else {
     resultsControl();
   }
 }
 
-void questionAnswerControl() {
+void questionAnswerControl(dynamic jsonObject) {
+  List questionsList = jsonObject['questions'];
   print('Question number: ${currentQuestion + 1}');
 
   // clear the previous question-answers from ul element
@@ -152,7 +160,8 @@ void optionControl(ElementList options) {
   });
 }
 
-void nextButtonClick(event) {
+void nextButtonClick(event, dynamic jsonObject) {
+  List questionsList = jsonObject['questions'];
   if (nextButton.text == 'Next') {
     // no matter how many times a user reselects
     // an answer in a given question, the last element
@@ -171,7 +180,7 @@ void nextButtonClick(event) {
 
     // Increment the index for the next questionEvent
     currentQuestion++;
-    questionsEvent(event);
+    questionsEvent(event, jsonObject);
   } else if (nextButton.text == 'Restart') {
     window.location.reload();
   }
