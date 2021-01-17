@@ -1599,6 +1599,156 @@
                 "150 AQSH dollari"
             ],
             "correctAnswer": "1 ta qo'y"
+        },
+        {
+            "question": "Tuya besh yosh bo'lmagunicha zakot beriladimi?",
+            "answers": [
+                "Zakot beriladi",
+                "Faqat urg'ochisidan beriladi",
+                "Zakot berilmaydi",
+                "Besh yoshdan keyin ham zakot yo'q"
+            ],
+            "correctAnswer": "Zakot berilmaydi"
+        },
+        {
+            "question": "Tuyalar soni 25 taga yetguncha qanday zakot beriladi?",
+            "answers": [
+                "Har besh tuyaga bitta qo'y",
+                "Har o'nta tuyaga bir tuya narxining 25 foizi",
+                "Har o'nta tuyaga 50 AQSH dollari",
+                "Har besh tuyaga bitta sigir"
+            ],
+            "correctAnswer": "Har besh tuyaga bitta qo'y"
+        },
+        {
+            "question": "Tijorat mollarining zakotga olib boradigan sifatlari nimalardan iborat?",
+            "answers": [
+                "Tijorat mollari savdo-sotiq uchun tayyorlangan bo'ladi",
+                "Ishlab chiqarilsa, savdo-sotiq uchun ishlab chiqarilgan bo'ladi",
+                "Tijorat mollari oltin va kumushdan tashqari mollardur",
+                "Hamma javoblar to'g'ri"
+            ],
+            "correctAnswer": "Hamma javoblar to'g'ri"
+        },
+        {
+            "question": "Tijorat mollarining zakotini berish shartlaridan biri qaysi?",
+            "answers": [
+                "Bir yil davomida (mazkur molning) tijorati bilan shu'gullanish niyati",
+                "Tijorat molidan beriladigan zakot albatta AQSH dollarida bo'lishi",
+                "Zakotni faqat naqd pul shaklida berish",
+                "Tijorat mollari ichida dehqonchilik mahsulotlari bo'lmasligi"
+            ],
+            "correctAnswer": "Bir yil davomida (mazkur molning) tijorati bilan shu'gullanish niyati"
+        },
+        {
+            "question": "Vafot etgan insondan qolgan mol zakotining hukmi qanday?",
+            "answers": [
+                "Har qanday holatta molning yarmidan zakot beriladi",
+                "Har qanday holatta zakot berilmaydi",
+                "Vafot etgan insonning farzandlari hal qilishlari lozim",
+                "Mayyit zakotni vasiyat qilgan bo'lsa beriladi, aksincha bo'lsa berilmaydi"
+            ],
+            "correctAnswer": "Mayyit zakotni vasiyat qilgan bo'lsa beriladi, aksincha bo'lsa berilmaydi"
+        },
+        {
+            "question": "Quydagilardan qaysi birlari zakot beriluvchi toifa hisoblanmaydi?",
+            "answers": [
+                "Faqirlar, Kambag'allar, Sadaqa to'plovchi kishilar",
+                "Qalblari Islom diniga og'dirilishi zarur bo'lganlar, Mukotabalar, Qarzdorlar",
+                "Alloh taoloning yo'lidagilar, O'z yurtidan va mulkidan uzoqqa ketgan musofirlar",
+                "Tijoratni maqsad qilib, boshlang'ich mablag' izlab yurgan insonlar"
+            ],
+            "correctAnswer": "Tijoratni maqsad qilib, boshlang'ich mablag' izlab yurgan insonlar"
+        },
+        {
+            "question": "Zakot berilishi mumkin bo'lgan toifalar Quroni Karimning qaysi sura va oyatida keltirilgan?",
+            "answers": [
+                "Baqara surasi, 4-oyat",
+                "Tavba surasi, 60-oyat",
+                "Moida surasi, 5-oyat",
+                "Maryam surasi, 23-oyat"
+            ],
+            "correctAnswer": "Tavba surasi, 60-oyat"
+        },
+        {
+            "question": "Kambag'al insonning faqir insondan farqi nima?",
+            "answers": [
+                "Faqirda nisob miqdoricha mablag' bor va uni zaruriy ehtiyojga sarflaydi. Kambag'alda shu ham yo'q",
+                "Kambag'alda nisob miqdoricha mablag' bor va uni zaruriy ehtiyojga sarflaydi. Faqirda shu ham yo'q",
+                "Faqir va kambag'al o'rtasida hech qanday farq yo'q",
+                "Kamba'galning moli faqirnikidan har doim uch barobar ko'proq"
+            ],
+            "correctAnswer": "Faqirda nisob miqdoricha mablag' bor va uni zaruriy ehtiyojga sarflaydi. Kambag'alda shu ham yo'q"
+        },
+        {
+            "question": "Badavlat musulmonning Ramazon hayitida zakot berilishi joiz bo‘lganlarga beradigan sadaqasi nima?",
+            "answers": [
+                "Zakot",
+                "Fitr sadaqasi",
+                "Sadaqai joriya",
+                "Sadaqai muboh"
+            ],
+            "correctAnswer": "Fitr sadaqasi"
+        },
+        {
+            "question": "Fitr sadaqasi, Nabiy sollallohu alayhi va sallam tomonlaridan qachon joriy qilingan?",
+            "answers": [
+                "Hijrattan ikki yil oldin",
+                "Hijratning 5-yilida",
+                "Hijrat yilida",
+                "Hijratning 2-yilida"
+            ],
+            "correctAnswer": "Hijratning 2-yilida"
+        },
+        {
+            "question": "Fitr sadaqasi qaysi vaqtta vojib bo'ladi?",
+            "answers": [
+                "Ramazon oyi kirishi bilan",
+                "Ramazon hayitining uchinchi kuni kirganda",
+                "Ramazon hayitining birinchi kun tong otishi bilan",
+                "Ramazon oyining birinchi 10 kunligida"
+            ],
+            "correctAnswer": "Ramazon hayitining birinchi kun tong otishi bilan"
+        },
+        {
+            "question": "Tilla (kumush) boshqa metallar bilan aralashgan bo'lsa va umumiy vaznning 50% dan kam bo'lsa qanday yo'l tutiladi?",
+            "answers": [
+                "Tilla (kumush) miqdori umumiy vaznda 50% dan kam bo'lsa zakot berilmaydi",
+                "Qancha foizligidan qat'iy nazar zakot beriladi",
+                "Ehtiyot yuzasidan zakot bergan yaxshi",
+                "Boshqa metallardan ajratishga harakat qilinadi va keyin nisobi hisoblanadi"
+            ],
+            "correctAnswer": "Tilla (kumush) miqdori umumiy vaznda 50% dan kam bo'lsa zakot berilmaydi"
+        },
+        {
+            "question": "Tilla va kumush o'zaro aralashgan bo'lsa qanday zakot beriladi?",
+            "answers": [
+                "Faqat kumushning vazni nisob darajasida bo'lsa zakot beriladi",
+                "Qaysi birining vazni nisobga yetsa o'shandan zakot berilaveradi",
+                "Faqat tillaning vazni nisobga yetgan bo'lsa zakot beriladi",
+                "Tilla va kumush o'zaro aralashib ketsa zakot berilmaydi"
+            ],
+            "correctAnswer": "Qaysi birining vazni nisobga yetsa o'shandan zakot berilaveradi"
+        },
+        {
+            "question": "Uy jihozlari, asbob uskunalar, ro'zg'or buyumlaridan zakot beriladimi?",
+            "answers": [
+                "Har qanday holatta zakot beriladi",
+                "Ulardan tijorat maqsadida foydalanilgan bo'lsagina zakot beriladi",
+                "Har qanday holatta ham zakot berilmaydi",
+                "Zakot berish yoki bermaslik insonning hohishiga bog'liq"
+            ],
+            "correctAnswer": "Ulardan tijorat maqsadida foydalanilgan bo'lsagina zakot beriladi"
+        },
+        {
+            "question": "Zakot bergan bermagani haqida shubha qilgan kishi qanday yo'l tutadi?",
+            "answers": [
+                "Bermadim deb jazm qilib, zakotni qaytadan beradi",
+                "Berdim deb jazm qilib zakotni qaytadan bermaydi",
+                "Hohlasa beradi, hohlamasa bermaydi",
+                "Qo'ni qo'shnisi, mahalla idorasidan so'rab keyin hal qiladi"
+            ],
+            "correctAnswer": "Bermadim deb jazm qilib, zakotni qaytadan beradi"
         }
     ]
 }
