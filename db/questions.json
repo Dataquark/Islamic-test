@@ -791,7 +791,7 @@
             "correctAnswer": "O'zing ne'mat berganlarning yo'liga"
         },
         {
-            "question": "G'oyril-mag'dubi 'alayhim walad-dooliin oyatining ma'nosi nima?",
+            "question": "G'oyril-mag'dubi 'alayhim walad-doolliin oyatining ma'nosi nima?",
             "answers": [
                 "Faqat Sengagina ibodat qilamiz, Sendangina yordam so'raymiz",
                 "Bizni to'g'ri yo'lga hidoyat qilgin",
@@ -1445,7 +1445,7 @@
             "answers": [
                 "Ro'zasi buziladi, ham qazo, ham kafforot ro'zasi vojib bo'ladi",
                 "Ro'zasi buziladi va faqat qazo tutishi vojib bo'ladi",
-                "Ro'zasi buzilad va faqat kafforot ro'zasini tutish vojib bo'ladi",
+                "Ro'zasi buziladi va faqat kafforot ro'zasini tutish vojib bo'ladi",
                 "Ro'za buzilmaydi, qazo qilinmaydi, kafforot ro'zasi shart emas"
             ],
             "correctAnswer": "Ro'zasi buziladi, ham qazo, ham kafforot ro'zasi vojib bo'ladi"
@@ -1749,6 +1749,256 @@
                 "Qo'ni qo'shnisi, mahalla idorasidan so'rab keyin hal qiladi"
             ],
             "correctAnswer": "Bermadim deb jazm qilib, zakotni qaytadan beradi"
+        },
+        {
+            "question": "Safarga chiqqan inson qaysi namozlarni qasr qilib o'qiydi?",
+            "answers": [
+                "Bomdod va Shom namozlarining farzini",
+                "Peshin, Asr va Hufton namozlarining farzini",
+                "Shom va Hufton namozlarini sunnatini",
+                "Barcha namozlarni qasr qilib o'qishi shart"
+            ],
+            "correctAnswer": "Peshin, Asr va Hufton namozlarining farzini"
+        },
+        {
+            "question": "Musofir uchun namozlarni qasr qilib o'qishning hukmi nima?",
+            "answers": [
+                "Qasr qilib o'qishi vojib",
+                "Hohlasa qasr qiladi, hohlasa to'liq o'qiydi",
+                "To'liq qilib o'qishi sunnat, qasr qilishi makruh",
+                "Namozlar to'liq qilib o'qilishi vojib"
+            ],
+            "correctAnswer": "Qasr qilib o'qishi vojib"
+        },
+        {
+            "question": "Inson musofir maqomiga o'tishi uchun qancha masofaga safar qilishi lozim?",
+            "answers": [
+                "Eng kami 90 km",
+                "120 kmdan uzoqqa",
+                "Eng kami 77 km",
+                "Ikki kunlik masofaga"
+            ],
+            "correctAnswer": "Eng kami 77 km"
+        },
+        {
+            "question": "Musofir qancha vaqt davomida namozlarni qasr qilib o'qishi vojib?",
+            "answers": [
+                "Safarda 5 kundan kam tursa qasr qiladi, ko'p tursa to'liq o'qiydi",
+                "30 kundan kam tursa qasr, ko'p bo'lsa to'liq o'qiydi",
+                "3 kun qasr qiladi, keyin to'liq o'qiydi",
+                "Niyati 15 kundan kam turish bo'lsa qasr qiladi, bo'lmasa to'liq o'qiydi"
+            ],
+            "correctAnswer": "Niyati 15 kundan kam turish bo'lsa qasr qiladi, bo'lmasa to'liq o'qiydi"
+        },
+        {
+            "question": "Safarga chiqqan inson, biror narsani esdan chiqargani yodiga tushib uyiga qaytsa, qanday yo'l tutadi?",
+            "answers": [
+                "Safari buziladi, va uyiga qaytgunicha namozlarini to'liq o'qiydi",
+                "Safari buzilmaydi, yashash joyiga qaytgunicha namozlarini qasr qilib o'qiydi",
+                "Safari buzilmaydi, hatto yashash joyiga kelganda ham namozlarini qasr qiladi",
+                "Har bir namozni ikki martta: bir martta to'liq, ikkinchi martta qasr qilib o'qiydi"
+            ],
+            "correctAnswer": "Safari buzilmaydi, yashash joyiga qaytgunicha namozlarini qasr qilib o'qiydi"
+        },
+        {
+            "question": "Musofir inson Hufton namozining farzini o'qishda, masjiddagi muqim imomga ergashsa qanday o'qiydi?",
+            "answers": [
+                "Imom to'liq o'qisa ham, qasr qilib o'qishi vojib",
+                "Qasr qilib o'qishi sunnat, imomga ergashib to'liq o'qishi makruh",
+                "Imomga ergashib to'liq o'qiydi",
+                "To'liq o'qish yoki o'qimaslik muboh amal, hohlaganini qiladi"
+            ],
+            "correctAnswer": "Imomga ergashib to'liq o'qiydi"
+        },
+        {
+            "question": "Safar davomida qoldirilgan namozlarni, inson yashash joyiga qaytsa qanday qilib o'qiydi?",
+            "answers": [
+                "Qazosini to'liq o'qiydi, chunki safardan qaytti",
+                "Safarda qoldirilgan namozlar uyga qaytganda umuman o'qilmaydi",
+                "Qazosini ikki martta o'qiydi: birinchisini to'liq, ikkinchisini qasr qilib",
+                "Qazosini qasr qilib o'qiydi, chunki namoz safar paytida qazo bo'ldi"
+            ],
+            "correctAnswer": "Qazosini qasr qilib o'qiydi, chunki namoz safar paytida qazo bo'ldi"
+        },
+        {
+            "question": "Inson safarda 10 kun turishni niyat qildi, ammo 9-kuni safari yana 10 kunga cho'zildi. Namozni qanday ado etadi?",
+            "answers": [
+                "15-kundan boshlab to'liq o'qiydi",
+                "To'liq o'qishni boshlaydi, avvalgi 10 kunlik namozlarni qazo qilib yana bir marttadan o'qiydi",
+                "Qasr qilib o'qiyveradi, safari yana shunday holda ketma-ket cho'zilaversa ham",
+                "Bir amallab muqim yashash joyiga qaytishi shart"
+            ],
+            "correctAnswer": "Qasr qilib o'qiyveradi, safari yana shunday holda ketma-ket cho'zilaversa ham"
+        },
+        {
+            "question": "Qasr qilib o'qilishi lozim bo'lgan namozlarning uslubi qanday?",
+            "answers": [
+                "4 rak'atli namozlarni 2 rak'at qilib o'qishlik",
+                "2 rak'atli namozlarini 1 rak'at, 4 rak'atli namozlarni 2 rak'at qilishlik",
+                "4 rak'atli namozlarni 3 rak'at qilib o'qishlik",
+                "O'ziga qanday usul qulay bo'lsa shunday ado etmoqlik"
+            ],
+            "correctAnswer": "4 rak'atli namozlarni 2 rak'at qilib o'qishlik"
+        },
+        {
+            "question": "Sunnat, Nafl, Vitr vojib namozlari qasr qilinadimi?",
+            "answers": [
+                "Sunnat namozlar qilinadi, Nafl, Vitr to'liq o'qiladi",
+                "Vitr namozi qasr qilinadi, Sunnat, Nafl namozlari to'liq o'qiladi",
+                "Barchasi, qasr qilib o'qiladi",
+                "Ushbu namozlar to'liq ravishda ado etiladi"
+            ],
+            "correctAnswer": "Ushbu namozlar to'liq ravishda ado etiladi"
+        },
+        {
+            "question": "Farz namozlarini, uzrsiz, vaqtidan o'tkazib yuborishning hukmi nima?",
+            "answers": [
+                "Harom, inson katta gunohkor bo'ladi",
+                "Makruh, inson kichik gunoh qilgan bo'ladi",
+                "Harom, ammo gunohi og'ir emas",
+                "Hech qisi yo'q, qazo qilib o'qib beradi bo'ldi"
+            ],
+            "correctAnswer": "Harom, inson katta gunohkor bo'ladi"
+        },
+        {
+            "question": "Inson hushidan ketib ikki kunlik namozlarini o'tkazib yuborsa, hushiga kelgandan keyin nima qiladi?",
+            "answers": [
+                "Qazosini o'qib berishi farz",
+                "Hushiga kelgach 2.2kg arpa miqdorida sadaqa beradi",
+                "Ham qazosini o'qib beradi, ham 2.2kg arpa miqdorida sadaqa beradi",
+                "O'tib ketgan namozlarni qazosini o'qimaydi"
+            ],
+            "correctAnswer": "O'tib ketgan namozlarni qazosini o'qimaydi"
+        },
+        {
+            "question": "Bomdod namozining ikki rak'at sunnatini qazo qilib o'qishning hukmi qanday?",
+            "answers": [
+                "Uxlab qolib keyin uyg'onsa, faqat o'sha kunnikini qazo qilib, farzidan oldin o'qiydi",
+                "Barcha o'tib ketgan kunlarnikini, xatto o'n yil oldin o'tib ketgan bo'lsa ham, qazo qilib o'qishi shart",
+                "Bomdodning sunnati hech qaysi holatta qazo qilib o'qilmaydi",
+                "5 kundan kam o'tkazib yuborgan bo'lsa qazo qiladi, bo'lmasa qazosini o'qimaydi"
+            ],
+            "correctAnswer": "Uxlab qolib keyin uyg'onsa, faqat o'sha kunnikini qazo qilib, farzidan oldin o'qiydi"
+        },
+        {
+            "question": "Oltitadan kam namozni o'tkazib yuborgan kishi qanday yo'l tutadi?",
+            "answers": [
+                "Namozlarni tartib bilan qazosini o'qiydi: Bomdod, Peshin, Asr, Shom, Hufton, Vitr",
+                "Qazosini hohlagan tartibda o'qishi mumkin",
+                "Avval Peshin, Asr va Huftonni, keyin Bomdod va Shom namozlarini qazosini o'qiydi",
+                "Tartibni oxiridan boshlab qazo o'qiydi: Vitr, Hufton, Shom, Asr, Peshin va Bomdod"
+            ],
+            "correctAnswer": "Namozlarni tartib bilan qazosini o'qiydi: Bomdod, Peshin, Asr, Shom, Hufton, Vitr"
+        },
+        {
+            "question": "Inson umrida birinchi martta bomdodni o'tkazib yubordi. Qazosi esida bo'la turib peshin namozini vaqtida o'qidi. Hukmi qanday?",
+            "answers": [
+                "Bomdodning qazosini o'qiydi, keyin peshinni yana bir martta qaytarib o'qiydi",
+                "Bomdodning qazosini o'qiydi, keyin peshinni qayta o'qimaydi",
+                "Bomdodning qazosini o'qimaydi, chunki peshin uni bekor qiladi",
+                "Avval peshinni yana bir martta qayta o'qiydi, keyin bomdodning qazosini o'qiydi"
+            ],
+            "correctAnswer": "Bomdodning qazosini o'qiydi, keyin peshinni yana bir martta qaytarib o'qiydi"
+        },
+        {
+            "question": "Kasal inson turishga kuchi yetmasa, namozni qanday ado etadi?",
+            "answers": [
+                "Yotib o'qiydi, imo ishora bilan",
+                "O'tirib o'qiydi, imo ishora bilan",
+                "O'tirib o'qiydi, ruku va sajdani to'liq qiladi",
+                "Kasal inson namoz o'qishi shart emas"
+            ],
+            "correctAnswer": "O'tirib o'qiydi, ruku va sajdani to'liq qiladi"
+        },
+        {
+            "question": "Vafot etgan insonni yuvishning hukmi nima?",
+            "answers": [
+                "Uch martta yuvish farz",
+                "Bir martta yuvish farz, uch martta yuvish sunnat",
+                "Ikki martta yuvish farz, uch martta yuvish mustahab",
+                "Bir marttadan ko'p yuvish makruh"
+            ],
+            "correctAnswer": "Bir martta yuvish farz, uch martta yuvish sunnat"
+        },
+        {
+            "question": "Mayyitni yuvish odoblari qaysilar?",
+            "answers": [
+                "Balandroq joyga qo'yib yuvish",
+                "Suv to'planmaydigan joyga qo'yish",
+                "Iliq suv bilan yuvish",
+                "Hamma javob to'g'ri"
+            ],
+            "correctAnswer": "Hamma javob to'g'ri"
+        },
+        {
+            "question": "Mayyitning soch soqollarini tarash, mo'lov va tirnoqlarini olishning hukmi qanday?",
+            "answers": [
+                "Bunday qilish sunnat amallardan",
+                "Ushbularni qilish vojib hisoblanadi",
+                "Bular muboh amal sanaladi",
+                "Bu amallar makruhdir"
+            ],
+            "correctAnswer": "Bu amallar makruhdir"
+        },
+        {
+            "question": "Kafanlangandan keyin mayyittan najosat chiqib badaniga yoki kafaniga tegsa nima bo'ladi?",
+            "answers": [
+                "Qayta ochib boshqatta yuvish farz",
+                "Buni zarari yo'q",
+                "G'assol hohlasa qayta yuvadi, hohlamasa yuvmaydi",
+                "Kafan ustidan suv quyib yuborilishi sunnat"
+            ],
+            "correctAnswer": "Buni zarari yo'q"
+        },
+        {
+            "question": "Janoza namozi uchun ma'lum bir vaqt kirishi shartmi?",
+            "answers": [
+                "Shart, janoza faqat kunduz kuni peshingacha o'qiladi",
+                "Janoza namozi uchun ma'lum vaqt shart qilinmaydi",
+                "Janoza namozi faqat shomdan keyin o'qiladi",
+                "To'g'ri javob yo'q"
+            ],
+            "correctAnswer": "Janoza namozi uchun ma'lum vaqt shart qilinmaydi"
+        },
+        {
+            "question": "Marhumni badanining yarmidan ko'pi yo'q bo'lsa janoza qanday o'qiladi?",
+            "answers": [
+                "Janoza umuman o'qilmaydi",
+                "Butun odamga qanday o'qilsa shunday o'qiladi",
+                "Janoza namozini ikki barabor qisqartirib o'qiladi",
+                "To'plangan odamlarning yarmi o'qiydi, qolganlar faqat duo qiladi"
+            ],
+            "correctAnswer": "Janoza umuman o'qilmaydi"
+        },
+        {
+            "question": "Janoza namozining sunnatlari qaysilar?",
+            "answers": [
+                "Birinchi takbirdan keyin sano duosini o'qish",
+                "Ikkinchi takbirdan keyin Durud Ibrohim salovotini o'qish",
+                "Uchinchi takbirdan keyin marhum haqqida duo qilish",
+                "Barchasi sunnat amallar hisoblanadi"
+            ],
+            "correctAnswer": "Barchasi sunnat amallar hisoblanadi"
+        },
+        {
+            "question": "Janoza namozining ko'rinishi qanday?",
+            "answers": [
+                "Janozada azon va iqomat yo'q, ammo ruku va sajda qilinadi",
+                "Janoza namozi uchun azon va iqomat aytiladi, ammo ruku va sajda qilinmaydi",
+                "Janoza namozida azon, iqomat ham, ruku va sajda ham yo'q",
+                "Ikki rakat nafl namoz o'qilsa, janoza namozi o'rniga o'tib ketaveradi"
+            ],
+            "correctAnswer": "Janoza namozida azon, iqomat ham, ruku va sajda ham yo'q"
+        },
+        {
+            "question": "Tobutning orqasidan ovoz chiqarib zikr qilish, Qur'on o'qishning hukmi qanday?",
+            "answers": [
+                "Bu amal makruh tahrimiy hisoblanadi",
+                "Ovoz chiqarib zikr qilish, Qur'on o'qish sunnat amallardan",
+                "Mustahab amal, hohlagan inson qilsa joiz",
+                "Harom, bu amallarni qilgan kishi janoza namozini boshqattan o'qiydi"
+            ],
+            "correctAnswer": "Bu amal makruh tahrimiy hisoblanadi"
         }
     ]
 }
